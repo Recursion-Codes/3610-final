@@ -1,0 +1,170 @@
+body{
+margin:0;
+background-color:gainsboro;
+position: absolute;
+overflow-x:hidden;
+width:100vw;
+}
+header{
+text-shadow: 0vh .25vh .5vh black;
+width:100%;
+font-family:arial;
+color:white;
+height:12vh;
+background-image:url(assets/header.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+#navigation{
+position:absolute;
+top:0vh;
+right:0vh;
+}
+
+header h1{
+display:inline;
+margin-left:4vh;
+font-size:10vh;
+}
+
+h1{
+    font-family:arial;
+    display:inline;
+    font-size:7vh;
+    font-weight:normal;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+header #navigation{
+    display:inline;
+    float:right;
+    font-size:5vh;
+    }
+
+header #navigation a{
+    margin-right:4vh;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+    
+
+
+iframe{
+    width:64vh;
+    height:36vh;
+}
+
+.stepimage img{
+width:64vh;
+height:auto;
+}
+
+#container{
+    width:100vw;
+    height:100%;
+    display:flexbox;
+    text-align:center;
+}
+
+.videotitle{
+    font-size:7vh;
+    font-family:arial;
+}
+
+.steptext{
+    font-size:3vh;
+    font-family:arial;
+}
+footer{
+    width:100%;
+}
+
+hr{
+    height:1vh;
+    background-color:black;
+}
+
+#arrows{
+position:fixed;
+bottom:0vh;
+right:0vh;
+font-size:12vh;
+bottom:50%;
+width:100%;
+}
+#arrows a{
+color:black;
+}
+#spacer{
+    width:70vh;
+    display:inline-block;
+}
+
+#menu{
+width:100%;
+height:100%;
+margin-top:10vh;
+display:flex;
+justify-content:center;
+flex-wrap: wrap;
+}
+
+#menu a{
+    position:relative;
+    font-family:arial;
+    font-size:6vh;
+    color:black;
+}
+#menu img{
+width:30vh;
+height:30vh;
+}
+.menunav{
+display:inline-block;
+}
+
+@media (orientation: portrait) {
+    header h1{
+        font-size:6vw;
+        width:100%;
+        top:0vh;
+        position:absolute;
+        display:inline-block;
+        text-align:center;
+        margin-top:0vh;
+        margin-left:0vh;
+    }
+    header #navigation a{
+        font-size:6vw;
+        display:inline-block;
+        text-align:center;
+        }
+    header #navigation{
+        position:absolute;
+        top:6vh;
+        width:100%;
+        text-align:center;
+    }
+    
+#container{
+    display:flexbox;
+    text-align:center;
+}
+#arrows{
+    display:none;
+}
+.stepimage img{
+width:100%;
+height:auto;
+}
+iframe{
+    width:100%;
+    height:30vh;
+}
+}
