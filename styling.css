@@ -91,16 +91,16 @@ hr{
 }
 
 #arrows{
-position:fixed;
-bottom:0vh;
-right:0vh;
-font-size:12vh;
-bottom:50%;
-width:100%;
-}
-#arrows a{
-color:black;
-}
+    position:fixed;
+    bottom:0vh;
+    right:0vh;
+    font-size:12vh;
+    bottom:50%;
+    width:100%;
+    }
+    #arrows a{
+    color:black;
+    }
 #spacer{
     width:70vh;
     display:inline-block;
@@ -127,6 +127,16 @@ height:30vh;
 }
 .menunav{
 display:inline-block;
+}
+
+#arrowsmobile a{
+    color:black;
+    font-size:12vh;
+    }
+@media (orientation:landscape){
+    #arrowsmobile{
+        display:none;
+    }
 }
 
 @media (orientation: portrait) {
@@ -166,5 +176,8 @@ height:auto;
 iframe{
     width:100%;
     height:30vh;
+}
+#spacer{
+    display:none;
 }
 }
